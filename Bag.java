@@ -1,6 +1,7 @@
 package ceng112;
 
 public class Bag<T> implements Ibag<T> {
+	//***
 	private final static int DEFAULT_CAPACITY = 10;
 	private T[] bag;
 	private int itemCount;
