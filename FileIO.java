@@ -6,12 +6,13 @@ import java.io.IOException;
 
 public class FileIO {
 	public static void readFile(Text<Word> text, Dictionary<Word> dictionary) {
-		String fileName = "text.txt"; 
+		String fileName = "text"; 
 
         try {
        
             FileReader fileReader = new FileReader(fileName);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
+            System.out.println("SELAM");
 
             String line;
             while ((line = bufferedReader.readLine()) != null) {
